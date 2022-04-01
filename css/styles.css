@@ -350,7 +350,7 @@ text {
   height: 250px;
   width: 250px;
   border-radius: 50%;
-  background-image: url(./images/JavaScript-logo.jpg);
+  background-image: url(../images/js-logo.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
