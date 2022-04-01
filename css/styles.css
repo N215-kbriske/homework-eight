@@ -346,20 +346,11 @@ text {
   justify-content: space-between;
   margin-bottom: 30px;
 }
-.content .platforms .platform .platform-icon {
-  height: 250px;
-  width: 250px;
-  border-radius: 50%;
-  background-image: url(../images/R.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 .content .platforms .platform .js-icon {
   height: 250px;
   width: 250px;
   border-radius: 50%;
-  background-image: url(../images/Javascript-logo.jpg);
+  background-image: url(./images/JavaScript-logo.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
