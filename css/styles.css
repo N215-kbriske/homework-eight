@@ -1,0 +1,394 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.page-wrapper {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+#app {
+  min-height: calc(100vh - 100px);
+  width: 100%;
+}
+
+.hero {
+  height: 300px;
+  background-image: url(../images/R.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  width: 100%;
+  height: 45px;
+  background-color: #8390fa;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: -30px;
+  font-size: 15px;
+}
+nav a .logoImage {
+  width: 90%;
+  height: 90%;
+}
+
+footer {
+  width: 100%;
+  height: 45px;
+  background-color: #8390fa;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+h1 {
+  text-align: center;
+}
+
+.home-title {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50px;
+}
+
+.home-flavor {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: -18px;
+  margin-left: 315px;
+  color: #ced0d1;
+}
+
+path {
+  fill: transparent;
+}
+
+text {
+  fill: #ae00ffc7;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.prod {
+  text-align: center;
+}
+
+.sad-news {
+  text-align: center;
+  margin-top: 200px;
+  font-size: 31px;
+  color: #0683f7;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.try-again {
+  text-align: center;
+  font-size: 21px;
+  color: #cacaca;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  margin-left: 250px;
+}
+
+.content {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 50px;
+  margin-top: 35px;
+  width: 100%;
+}
+.content h1 {
+  margin-bottom: 45px;
+  font-size: 40px;
+}
+.content .platforms {
+  width: 900px;
+  min-height: 50px;
+  margin: 0 auto;
+}
+.content .platforms .platform {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.content .platforms .platform .R-icon {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-image: url(../images/R.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content .platforms .platform .platform-descript {
+  width: 600px;
+}
+.content .editors {
+  margin-top: 70px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.content .editors .editors-list li {
+  margin: 12px;
+}
+.content .editors .editors-list li a {
+  text-decoration: underline;
+  color: black;
+}
+.content hr {
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+.content h4 {
+  margin-top: -10px;
+  color: lightblue;
+  margin-bottom: 30px;
+}
+.content .R-feature-images {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.content .R-feature-images .r-gif {
+  object-fit: contain;
+  width: 44%;
+  height: 44%;
+}
+.content .R-feature-images .rGraph {
+  object-fit: contain;
+  width: 53%;
+  height: 53%;
+}
+
+.content {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 50px;
+}
+.content h1 {
+  margin-bottom: 45px;
+  font-size: 40px;
+}
+.content .platforms {
+  width: 900px;
+  min-height: 50px;
+  margin: 0 auto;
+}
+.content .platforms .platform {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.content .platforms .platform .python-icon {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-image: url(../images/python.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content .platforms .platform .platform-descript {
+  width: 600px;
+}
+.content .editors {
+  margin-top: 70px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.content .editors .editors-list li {
+  margin: 12px;
+}
+.content .editors .editors-list li a {
+  text-decoration: underline;
+  color: black;
+}
+.content hr {
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+.content .features {
+  margin-top: 35px;
+  width: 100%;
+}
+.content .features h4 {
+  margin-top: -10px;
+  color: lightblue;
+  margin-bottom: 30px;
+}
+.content .features .feature-images {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.content .features .feature-images .py-regress {
+  object-fit: contain;
+  width: 44%;
+  height: 44%;
+}
+.content .features .feature-images .py-pop {
+  object-fit: contain;
+  width: 50%;
+  height: 50%;
+}
+
+.content {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 50px;
+}
+.content h1 {
+  margin-bottom: 45px;
+  font-size: 40px;
+}
+.content .platforms {
+  width: 900px;
+  min-height: 50px;
+  margin: 0 auto;
+}
+.content .platforms .platform {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.content .platforms .platform .platform-icon {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-image: url(../images/R.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content .platforms .platform .sql-icon {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-image: url(../images/sql-logo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content .platforms .platform .platform-descript {
+  width: 600px;
+}
+.content .features {
+  margin-top: 35px;
+  width: 100%;
+}
+.content .features h4 {
+  margin-top: -10px;
+  color: lightblue;
+}
+.content .features .feature-images {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.content .features .feature-images .sql-ERD {
+  object-fit: contain;
+  width: 41%;
+  height: 41%;
+}
+.content .features .feature-images .sql-table {
+  object-fit: contain;
+  width: 50%;
+  height: 50%;
+}
+
+.content {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 50px;
+}
+.content h1 {
+  margin-bottom: 45px;
+  font-size: 40px;
+}
+.content .platforms {
+  width: 900px;
+  min-height: 50px;
+  margin: 0 auto;
+}
+.content .platforms .platform {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.content .platforms .platform .platform-icon {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-image: url(../images/R.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content .platforms .platform .js-icon {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-image: url(../images/Javascript-logo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content .platforms .platform .platform-descript {
+  width: 600px;
+}
+.content .features {
+  margin-top: 35px;
+  width: 100%;
+}
+.content .features h4 {
+  margin-top: -10px;
+  color: lightblue;
+}
+.content .features .feature-images {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.content .features .feature-images .js-gif {
+  object-fit: contain;
+  width: 45%;
+  height: 45%;
+}
+.content .features .feature-images .js-code {
+  object-fit: contain;
+  width: 44.7%;
+  height: 44.7%;
+}
+
+/*# sourceMappingURL=styles.css.map */

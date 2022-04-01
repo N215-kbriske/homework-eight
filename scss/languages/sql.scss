@@ -1,0 +1,94 @@
+.content {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    // border: 2px solid orange;
+    padding: 50px;
+  
+    h1 {
+      // border: 2px solid red;
+      margin-bottom: 45px;
+      font-size: 40px;
+    }
+  
+    .platforms {
+      width: 900px;
+      min-height: 50px;
+      margin: 0 auto;
+      // border: 2px solid yellow;
+      // background-color: aqua;
+  
+      .platform {
+        display: flex;
+        //can take this out to bring it to top
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        // border: 2px solid blue;
+        //   border: 2px solid green;
+  
+        .platform-icon {
+          height: 250px;
+          width: 250px;
+          border-radius: 50%;
+          // background-color:cornflowerblue;
+          background-image: url(../images/R.jpg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          // border: 2px solid green;
+        }
+  
+        .sql-icon {
+          height: 250px;
+          width: 250px;
+          border-radius: 50%;
+          // background-color:cornflowerblue;
+          background-image: url(../images/sql-logo.jpg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          // border: 2px solid green;
+        }
+  
+  
+        .platform-descript {
+          width: 600px;
+          // border: 2px solid purple;
+        }
+      }
+    }
+
+    .features {
+      margin-top: 35px;
+      width: 100%;
+      // border: 2px solid violet;
+  
+      .features-header {
+      }
+      h4 {
+        margin-top: -10px;
+        color: lightblue;
+      }
+  
+      .feature-images {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+  
+        .sql-ERD {
+          object-fit: contain;
+          width: 41%;
+          height: 41%;
+          // border: 2px solid #c1d7f2;
+        }
+  
+        .sql-table {
+          object-fit: contain;
+          width: 50%;
+          height: 50%;
+          // border: 2px solid #c1d7f2;
+        }
+      }
+    }
+  }
+  
